@@ -8,4 +8,4 @@
 * 创建/MyData VOLUME
 
 ## 运行示例
-	docker run --name myapp --restart on-failure:5 --privileged=true -v ./data:/MyData -v ./appbin:/app -d dotnetrun
+	docker run --name myapp --restart on-failure:5 --privileged=true -v ./data:/MyData -v ./appbin:/app -d vanjoge/dotnetrun
