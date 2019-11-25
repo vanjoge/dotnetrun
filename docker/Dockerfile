@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:3.0-aspnetcore-runtime
+FROM microsoft/dotnet:2.1-aspnetcore-runtime
 WORKDIR /app
 #时区更改
 RUN /bin/sh -c 'ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime'
